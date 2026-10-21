@@ -3,8 +3,9 @@
   "name": "geohash-encode-decode",
   "title": "Geohash",
   "description": "Encode coordinates as geohash, or decode a geohash and get useful info",
-  "icon": "command-icon.png",
+  "icon": "assets/command-icon.png",
   "author": "almatkai",
+  "categories": ["Developer Tools"],
   "license": "MIT",
   "commands": [
     {
