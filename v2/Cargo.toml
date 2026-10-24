@@ -1,0 +1,21 @@
+[package]
+name = "tezbar-geohash-native"
+version = "0.2.0"
+edition = "2021"
+rust-version = "1.85"
+description = "Compiled-in Native V2 Geohash port, with pinned beta contract tests"
+license = "MIT AND Apache-2.0"
+repository = "https://github.com/almatkai/geohash-encode-decode"
+readme = "README.md"
+include = ["/src/**", "/tezbar_adapter.rs", "/manifest.json", "/command-icon.png", "/tests/**", "/licenses/**", "/LICENSE", "/NOTICE", "/README.md", "/Cargo.toml", "/Cargo.lock", "/oracle/*.cjs", "/oracle/package.json", "/oracle/package-lock.json", "/scripts/**"]
+
+[dependencies]
+serde = { version = "=1.0.228", features = ["derive"] }
+serde_json = "=1.0.145"
+ryu-js = "=1.0.2"
+
+[dev-dependencies]
+tokio = { version = "=1.43.0", features = ["macros", "rt-multi-thread"] }
+tempfile = "=3.15.0"
+log = "=0.4.25"
+sha2 = "=0.10.8"

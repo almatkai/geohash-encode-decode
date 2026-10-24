@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "id": "com.tezbar.native.geohash-encode-decode",
+  "slug": "geohash-encode-decode",
+  "name": "Geohash",
+  "version": "0.2.0",
+  "description": "Encode coordinates as geohash, or decode a geohash and get useful info. Original Raycast extension by alrico88 (MIT); Tezbar Rust port by almatkai.",
+  "icon": "/extensions/icons/geohash-encode-decode.png",
+  "runtime": "rust",
+  "replaces": [
+    "raycast.geohash-encode-decode"
+  ],
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "preferences": [
+    {
+      "label": "Close on Action",
+      "description": "Close extension on action execution (Copy to Clipboard / Open in Browser)",
+      "default": true,
+      "type": "checkbox",
+      "name": "closeOnAction",
+      "required": false
+    }
+  ],
+  "commands": [
+    {
+      "name": "encode-coordinates",
+      "title": "Encode as Geohash",
+      "description": "Enter a latitude and longitude and get that point's representation as a geohash for any precision",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust"
+    },
+    {
+      "name": "decode-geohash",
+      "title": "Decode Geohash",
+      "description": "Enter a geohash and get insights such as the GeoJSON or WKT Polygon representation, centroid, neighbors, and more",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust"
+    }
+  ],
+  "verification": [
+    {
+      "platform": "macOS",
+      "state": "not-run",
+      "note": "Desktop UI and real OS effects have not been exercised; headless and cross-compilation results are documented in README."
+    },
+    {
+      "platform": "Windows",
+      "state": "not-run",
+      "note": "Desktop UI and real OS effects have not been exercised; headless and cross-compilation results are documented in README."
+    }
+  ]
+}

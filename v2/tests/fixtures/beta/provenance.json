@@ -1,0 +1,48 @@
+{
+  "repository": "https://github.com/almatkai/Tezbar",
+  "commit": "fd300e276356587726566026f072563eb9c34cb1",
+  "files": [
+    {
+      "file": "common.rs",
+      "path": "src-tauri/src/native_core/common.rs",
+      "sha256": "280a0a2f0dd04a8570b320aafc0c3ece0f5de8ddb21c363645567d6a35d84da7",
+      "bytes": 7627
+    },
+    {
+      "file": "v2_sdk.rs",
+      "path": "src-tauri/src/native_core/extensions/v2_sdk.rs",
+      "sha256": "4f987346f863db9a7bd6aa1d5a99e149925dc69a44d629727ccc80a567cd27c2",
+      "bytes": 6755
+    },
+    {
+      "file": "extension-v2.schema.json",
+      "path": "schemas/extension-v2.schema.json",
+      "sha256": "6d5afda1b652605982104bdf16d1547547b98dfd707a7b2969316406c49f32af",
+      "bytes": 2420
+    },
+    {
+      "file": "LICENSE",
+      "path": "LICENSE",
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf",
+      "bytes": 10750
+    },
+    {
+      "file": "list-runtime.tsx",
+      "path": "src/renderer/src/raycast-api/list-runtime.tsx",
+      "bytes": 32174,
+      "sha256": "c7e253c34ce6e0a5132cab96bf1f0388393faca79ff57c3fdc7956f377a0ab0f"
+    },
+    {
+      "file": "form-runtime.tsx",
+      "path": "src/renderer/src/raycast-api/form-runtime.tsx",
+      "bytes": 21087,
+      "sha256": "8568d0ac5be03eea97d0def38067dbbbdce5ae97c36a51024857ef20dce299a6"
+    },
+    {
+      "file": "index.tsx",
+      "path": "src/renderer/src/raycast-api/index.tsx",
+      "bytes": 7419,
+      "sha256": "7fc8413a72b92e8f88b0939cd93f91624018fe0765baa1e71b38b86f8cc77a64"
+    }
+  ]
+}
