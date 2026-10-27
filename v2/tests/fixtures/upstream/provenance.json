@@ -1,0 +1,66 @@
+{
+  "repository": "https://github.com/raycast/extensions",
+  "commit": "6734d85992290066fd31a7f5bee3cca3d3545a1a",
+  "files": [
+    {
+      "path": "extensions/geohash-encode-decode/src/encode-coordinates.tsx",
+      "sha256": "8e4cae3ac6f82637d40366737eaf2508dc17179fa9239a029eb5cc79280ad295",
+      "bytes": 897
+    },
+    {
+      "path": "extensions/geohash-encode-decode/src/decode-geohash.tsx",
+      "sha256": "63a45c9f8e0f22e6989a36631542cd9d0879ca69596b487f14ae3086530eabfd",
+      "bytes": 647
+    },
+    {
+      "path": "extensions/geohash-encode-decode/src/components/EncodedList.tsx",
+      "sha256": "d57ec1cce8f37f6165117a3a7798b61f8c75f17502216c0d783a854df8c11be0",
+      "bytes": 1837
+    },
+    {
+      "path": "extensions/geohash-encode-decode/src/components/InvalidGeohash.tsx",
+      "sha256": "b817898e81c70dae97880c31b208c1f49b38b233fabb522e7426553a3cd1f373",
+      "bytes": 197
+    },
+    {
+      "path": "extensions/geohash-encode-decode/src/components/ListRow.tsx",
+      "sha256": "37d52dd94d29a2a769fa63298df704893ed7cccd99abe5949514bdc030bdd740",
+      "bytes": 618
+    },
+    {
+      "path": "extensions/geohash-encode-decode/src/components/DecodedInfo.tsx",
+      "sha256": "906cf80f900bbaf4b93e8edad6d3d33eb8baf7a7b1f1f51c021873e56485051c",
+      "bytes": 2468
+    },
+    {
+      "path": "extensions/geohash-encode-decode/src/components/InvalidCoordinates.tsx",
+      "sha256": "b64807ee03749f477b8a9fd3bec439d9e20ede20786781445116d45f30ae61a2",
+      "bytes": 181
+    },
+    {
+      "path": "extensions/geohash-encode-decode/src/helpers/prefs.ts",
+      "sha256": "7458e70836737cd4b6dd9ade925ed0863cb3d58d4b33f88c2a5ca0891be3c365",
+      "bytes": 296
+    },
+    {
+      "path": "extensions/geohash-encode-decode/src/helpers/actions.ts",
+      "sha256": "f4387d6311e4d9860a4f32f8d73e21ba41e1da0796df52b527770cf6d9616ea4",
+      "bytes": 221
+    },
+    {
+      "path": "extensions/geohash-encode-decode/src/helpers/getGeohashLink.ts",
+      "sha256": "e693fcaa204dfaf6c38f6c5f3c8c790eacf0b6836afb5a72538fc45ab1e26bf3",
+      "bytes": 291
+    },
+    {
+      "path": "extensions/geohash-encode-decode/package.json",
+      "sha256": "52dcd962fbd069beb70617fcb59637827ab3806c5ded9f5a749dbb849e0081a1",
+      "bytes": 1703
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+      "bytes": 1064
+    }
+  ]
+}

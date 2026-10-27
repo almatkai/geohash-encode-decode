@@ -1,0 +1,42 @@
+Geohash Native V2
+
+Original extension: Geohash, by alrico88, MIT.
+https://github.com/raycast/extensions/tree/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/geohash-encode-decode
+The pinned TS/TSX source, original package metadata and repository MIT license
+are retained in tests/fixtures/upstream. provenance.json records original paths,
+lengths and SHA-256 hashes. These fixtures are executed to generate the oracle.
+The supplemental src/types/ngeohash.d.ts is from retained Tezbar V1, not upstream;
+it is not loaded by the oracle evaluator.
+
+Native Rust implementation and adapter: Copyright (c) 2026 almatkai, MIT.
+See LICENSE. The root V1 package's existing files and license remain intact.
+
+command-icon.png is the exact original Raycast Geohash icon (172526 bytes),
+SHA-256 f59d02918ee4879a95940e3df317ff70ebeb901582967188b034b73daf0ee834.
+It is copied without resizing, recompression, repainting or other modification.
+
+Algorithm and serialization compatibility references:
+- ngeohash 0.6.3, Copyright (c) 2011 Sun Ning, MIT; see licenses/ngeohash.txt.
+- geohash-to-geojson 4.1.0, MIT; see licenses/geohash-to-geojson.txt.
+- wkt-parser-helper 4.0.1, MIT; see licenses/wkt-parser-helper.txt.
+- wellknown 0.5.0, WTFPL; see licenses/wellknown.txt.
+- @sindresorhus/is 4.2.1, MIT; see licenses/sindresorhus-is.txt.
+The Rust port implements only the operations exposed by the original two commands.
+The JavaScript dependencies are optional oracle development tools, never executed
+by the Native V2 runtime. Their exact resolved versions and integrity records are
+in oracle/package-lock.json (copied unchanged from V1).
+
+Tezbar beta API fixtures:
+https://github.com/almatkai/Tezbar at fd300e276356587726566026f072563eb9c34cb1.
+tests/fixtures/beta/{common.rs,v2_sdk.rs,extension-v2.schema.json,LICENSE}
+are byte-exact copies of the paths in that directory's provenance.json, under
+the Apache License 2.0. See tests/fixtures/beta/LICENSE. No fixture modifications.
+The test harness supplies a minimal Tauri surface stub; this is separate from
+those files. The real CoreContext and SDK code, including their tests, compile
+and execute without desktop OS effects.
+
+The distributable crate includes both MIT extension code and Apache-2.0 beta
+fixtures, so its package SPDX expression is MIT AND Apache-2.0. Individual
+third-party Cargo dependencies retain their own licenses (see Cargo.lock and
+Cargo metadata); ryu-js is Apache-2.0 OR BSL-1.0. Bundling dependencies or the
+optional npm oracle tooling requires retaining their respective license notices.
